@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .blok{
+        display: flex;
+        justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width: 200px;
+            height: fit-content;
+            padding: 1rem;
+            border-radius: 20px;
+            border: 1px solid #000000;
+    }
+   .blok img{
+    border-radius: 10px;
+    width: 100%;
+    }
+    .blok h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .cont{
+        display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+    }
+    .container{
+        text-align: center;
+    }
+    .container input{
+        width: 30%;
+        height: 30px;
+        border-radius: 30px;
+    color: #000000;
+        text-align: center;
+    }
+</style>
+<body>
+<div id="div" class="container">
+    <input id="input" type="text" placeholder="Nuber">
+</div>
+<div id="content" class="cont"></div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
